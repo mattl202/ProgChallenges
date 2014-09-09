@@ -12,7 +12,6 @@ public class Compressor {
 			int width = numberIn;
 			int threshold = console.nextInt();
 			array = makeArray(width, threshold, console);
-			//compress(array, threshold, 0, width);
 			compress(array, threshold, width, 0, 0);
 			showArray(array, width, console, count);
 			count++;
@@ -43,7 +42,6 @@ public class Compressor {
 			for (int i = x; i < width + x; i++) {
 				for (int j = y; j < width + y; j++) {
 					array[i][j] = 0;
-					System.out.println("Bazooka! " + (width) + ((double) threshold)/100);
 				}
 			}
 			return;
