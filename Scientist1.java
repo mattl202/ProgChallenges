@@ -23,16 +23,6 @@ public class Scientist1 {
 			
 		}
 		System.out.println();
-		/*
-		while (console.hasNext()) {
-			int number = console.nextInt();
-			if (number)
-			for (int i = 0; i <= number; i++) {
-				System.out.print(1);
-			}
-			System.out.println();
-		}
-		*/
 	}
 
 }
